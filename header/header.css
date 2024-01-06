@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+.first{
+    display: flex;
+    align-items: center;
+    margin-left: 600px;
+}
+
+.home{
+    background-color: blue;
+    padding:15px 25px;
+    border-radius: 15px;
+}
+.home-tag{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav ul  {
+    list-style:none;
+}
+
+.nav ul li {
+    display:inline;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color:blue;
+    margin-right:20px;
+    font-size: 20px;
+    font-weight:500;
+}
+
+.second {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    margin-left:50px;
+}
+
+.nav-list ul li{
+    list-style: none;
+    display:inline-block;
+    margin-right: 20px;
+    
+}
+
+.nav-list a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.fa-brands{
+    font-size: 50px;
+    margin-right:60px;
+    
+}
+
+button{
+    margin-left:60px;
+    border-radius: 10px;
+    border:1px solid blue;
+    
+}
+.login{
+    padding:10px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left:180px;
+}
+
+.signup{
+    padding: 10px;
+    background-color:blue;
+    color:white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right:90px;
+}
+
+.third{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    margin-left:100px;
+    justify-content: space-between;
+}
+
+.icon_and_list{
+    display: flex;
+    align-items: center;
+}
+
+.search_and_btn{
+    display: flex;
+    align-items: center;
+}
+
+.nav_input{
+    padding:20px;
+    margin-left:100px;
+}
+
+.fourth{
+    margin-top:100px;
+    display:flex;
+}
+
+.search_and_dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown-content{
+    background-color: blue;
+    position:absolute;
+    box-shadow: 2px 2px 10px yellow;
+    display: none;
+}
+
+.fa-user{
+    font-size: 25px;
+}
+
+.dropdown li{
+    list-style: none;
+    font-size: 20px;
+    margin:5px;
+    color:white;
+}
+
+.dropdown li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content{
+    display:block;
+}
